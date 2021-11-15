@@ -1,0 +1,33 @@
+.inbox-container {
+    /* background: white; */
+    width: 100%;
+    margin-top: 20px;
+    color: black;
+}
+.inbox-wrapper {
+    padding: 15px 10px;
+}
+
+.inbox-more-icon {
+    display: inline-block;
+    font-size: 25px !important;
+    margin-left: auto;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.inbox-container p {
+    font-size: 12px;
+}
+
+.inbox-container a {
+    text-decoration: none;
+    text-align: center;
+    border-top: 1px solid #c0c0c0;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    padding: 8px;
+    font-weight: bold;
+}

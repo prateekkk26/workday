@@ -1,0 +1,31 @@
+.box1-main {
+    width: 49%;
+}
+
+.box1-main-item {
+    padding: 10px 20px;
+}
+
+.homepage-announcement-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    width: 100%;
+}
+
+.announcement-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.announcement-image {
+    width: 35%;
+    height: 80px;
+}
+
+.announcement-info {
+    width: 62%;
+}
+

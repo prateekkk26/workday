@@ -1,0 +1,17 @@
+.settings-main {
+    padding: 25px;
+}
+
+.color-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px auto;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.color-container-item {
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+}

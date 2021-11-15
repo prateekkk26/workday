@@ -24,7 +24,42 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <!-- <script>
+      async function GetSupportedBrowser() {var n = window.navigator.userAgent,
+      e = n.indexOf("MSIE");
+      return e > 0 ? parseInt(n.substring(e + 5, n.indexOf(".", e))) : navigator.userAgent.match(/Trident\/7\./) ? 11 : 0
+      }
+      async function injectZiplyneEmbed(url){
+      if (GetSupportedBrowser() > 0) {
+      console.log("Ziplyne on IE is Not Supported")
+      } else {
+      let e = !1, o = 0;
+      for (; ;) {
+      if (await new Promise(e => setTimeout(e, 100)), o++, o > 30) { e = !0; break }
+      if (window.creatorExtensionPresent) break
+      }
+      if (e && !document.querySelector("#ziplyne")) {
+      fetch("https://api.ziplyne.com/api/client/embedScript", { "headers": {
+      allowdomain: url
+      }, "body": null, "method": "GET" })
+      .then(response => response.json())
+      .then(data => {
+      if (data.allowed) {
+      var scr = document.createElement("script");
+      scr.src = `https://cdn.ziplyne.com/scripts/v${data.version}/embedScript.js`;
+      document.head.appendChild(scr);
+      }else{
+      console.log("Ziplyne Disabled (Kill Switch is Active)")
+      }
+      }).catch(function (exception){ console.log("Ziplyne Not Loaded") });
+      }
+      }
+      }
+      //application url is the origin of application which is used as an identifier to fetch configurations
+
+      injectZiplyneEmbed(window.location.host);
+    </script> -->
+    <title>Workday</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

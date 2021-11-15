@@ -1,0 +1,18 @@
+.nav-title {
+    text-decoration: none !important;
+    font-weight: bold;
+    color: #fff;
+}
+
+.kronos-btn {
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 17px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+.kronos-btn:hover {
+    opacity: 0.9;
+}

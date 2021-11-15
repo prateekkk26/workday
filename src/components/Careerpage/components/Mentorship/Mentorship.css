@@ -1,0 +1,29 @@
+.mentorship-main {
+    padding: 25px;
+}
+
+.mentorship-btn {
+    background: #D3D3D3 !important;
+    border: 1px solid #C0C0C0 !important;
+    border-radius: 25px !important;
+    padding: 4px 30px !important;
+    font-weight: bold !important;
+    text-transform: initial !important;
+    box-shadow: none !important;
+    font-size: 12px !important;
+}
+
+.mentorship-btn-group {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mentorship-item {
+    margin-top: 50px;
+}
+
+.mentorship-item-title {
+    margin-bottom: 30px;
+    font-weight: bold !important;
+}

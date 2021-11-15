@@ -1,0 +1,26 @@
+.development-plan-main {
+    padding: 25px;
+}
+
+.development-plan-main  .makeStyles-title-36  {
+    align-self: center !important;
+}
+
+.development-plan-main .MuiInput-underline:before {
+    border-bottom: none !important;
+}
+
+.development-plan-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.development-plan-title {
+    align-self: center !important;
+    font-weight: bold;
+}
+
+.change-benefits-btn-container {
+    width: 100%;
+}
+

@@ -1,0 +1,76 @@
+.career-main {
+    padding: 25px;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin: 50px auto;
+}
+
+.career-main p {
+    color: #696969;
+    font-weight: bold;
+}
+
+.career-box1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.career-box2 {
+    margin-top: 20px; 
+}
+
+.career-box {
+    margin-top: 15px;
+    text-align: center;
+    background: #DCDCDC;
+    border-radius: 3px;
+}
+
+.career-box2 .career-box1-item1 {
+    padding: 15px;
+    width: 100%;
+}
+
+.career-item1,
+.career-item2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.career-box1-item1 {
+    width: 48%;
+    padding: 15px;
+}
+
+.career-box1-item2 {
+    width: 48%;
+    padding: 15px;
+}
+
+/* .career-links {
+    width: 100%;
+    background: #D3D3D3;
+    padding: 8px;
+    margin-top: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #696969;
+} */
+
+.career-link {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #696969;
+    padding: 10px;
+}
+
+/* .career-links:hover {
+    background-color: #a7a4a4;
+} */
+
+.career-box:hover {
+    opacity: 0.8;
+}

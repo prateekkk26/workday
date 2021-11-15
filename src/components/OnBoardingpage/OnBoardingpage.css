@@ -1,0 +1,22 @@
+.onboarding-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px 15px 25px;
+}
+
+.onboarding-header-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.onboarding-header1,
+.onboarding-header2 {
+    display: flex;
+    padding: 10px;
+}
+
+.onboarding-header1-info,
+.onboarding-header2-info {
+    margin-left: 15px;
+}

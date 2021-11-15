@@ -1,0 +1,65 @@
+.change-benefits-main {
+    padding: 25px;
+}
+
+.change-benefits-reason {
+    display: flex;
+}
+
+.change-benefits-comment-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.change-benefits-profile-comment {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.change-benefits-comment {
+    background: transparent;
+    width: 700px;
+    height: 70px;
+    margin-left: 25px;
+    padding: 15px;
+    font-size: 16px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.change-benefits-comment:focus-visible {
+    border: 1px solid #a09f9f;
+    outline: none;
+}
+
+.benefit-event .MuiInput-underline:before {
+    border-bottom: none !important;
+}
+
+.change-benefits-btn-container {
+    display: flex;
+    margin-top: 60px;
+    padding: 25px;
+    border-top: 1px solid #c0bdbd;
+}
+
+.change-benefits-btn1,
+.change-benefits-btn2 {
+    border-radius: 25px !important;
+    padding: 4px 30px !important;
+    font-weight: bold !important;
+    text-transform: initial !important;
+    box-shadow: none !important;
+    font-size: 12px !important;
+}
+
+.change-benefits-btn1  {
+    color: #fff !important;
+}
+
+.change-benefits-btn2 {
+    background: #D3D3D3 !important;
+    border: 1px solid #C0C0C0 !important;
+    margin-left: 15px !important;
+}

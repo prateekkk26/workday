@@ -1,0 +1,50 @@
+.onboarding-box-container {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* background: #FAF9F6; */
+}
+
+.onboarding-item {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.onboarding-item1,
+.onboarding-item2,
+.onboarding-item3 {
+    width: 32.5%;
+}
+
+.onboarding-box-list-item {
+    display: flex;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.onboarding-item-box {
+    border-radius: 50%;
+    padding: 2px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onboarding-box-icon {
+    color: #fff;
+    /* font-size: 35px; */
+    width: 35px;
+}
+
+.onboarding-box-list-item-info {
+    margin-left: 15px;
+    align-self: center;
+}
+
+.onboarding-background {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+

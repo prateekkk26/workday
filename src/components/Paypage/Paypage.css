@@ -1,0 +1,50 @@
+.pay-container {
+    width: 350px;
+    height: auto;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 15px;
+}
+
+.pay-container p {
+    /* color: #706d6d; */
+    font-weight: bold;
+    color: #696969;
+}
+
+/* .pay-links {
+    width: 100%;
+    background: #D3D3D3;
+    padding: 8px;
+    margin-top: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #696969;
+} */
+
+.pay-box {
+    margin-top: 15px;
+    text-align: center;
+    background: #DCDCDC;
+    border-radius: 3px;
+}
+
+.pay-box:hover {
+    opacity: 0.8;
+}
+
+.pay-link {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: 	#696969;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 12px;
+}
+
+/* .pay-links:hover {
+    background-color: #a7a4a4;
+} */
